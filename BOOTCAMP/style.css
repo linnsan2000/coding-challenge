@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Shrikhand|OpenSans');
+
+body
+{
+   height: 2000px;
+    background: #B8C3FF; /* For browsers that do not support gradients */    
+    background: -webkit-repeating-linear-gradient(left top, #D1D8FF, #00178a); /* For Safari 5.1 to 6.0 */
+    background: -o-repeating-linear-gradient(bottom right, #D1D8FF, #00178a); /* For Opera 11.1 to 12.0 */
+    background: -moz-repeating-linear-gradient(bottom right, #D1D8FF, #00178a); /* For Firefox 3.6 to 15 */
+    background: repeating-linear-gradient(to bottom right, #D1D8FF, #00178a); /* Standard syntax (must be last) */
+}
+
+h1 {
+  color: #F3F2FF;
+  font-family:"pacifico";
+  text-align: center;
+  font-size: 100px
+}
+
+h2 {
+  color: #fcffb3;
+  text-align:center;
+  font-family:"Monoton";
+  font-size: 54px;
+
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: #fdffcc;}
+    to {color: #F3F2FF;}
+}
+
+h3 {
+  color: #DCDBFF;
+  text-align:center;
+  font-family:"OpenSans";
+  font-size: 40px;
+  text-align: center;
+}
+
+.box {
+  border: 5px dotted white;
+  	padding-top: 2px;
+ 	padding-right: 2px;
+ 	padding-left: 2px;
+ 	padding-bottom: 2px;
+ 	width: 50%;
+ 	display:block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 10px;
+}
+
+img {
+	display:block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 10px;
+ 	width:50px;
+ 	height:50px;
+}
+
+.arrow {
+  content: "\21E9";
+  color: yellow;
+  font-size: 100px;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {  
+  50% { opacity: 0; }
+
+}
+
+.searchbox {
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: auto;
+ 	width:500px;
+ 	height:1000px;
+}
+
+
+form {
+	  text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    display: block;
+   
+}
+
+h4 {
+  color: #DCDBFF;
+  text-align:center;
+  font-family:"OpenSans";
+  font-size: 10px;
+  text-align: center;
+}
+
+
+}
+
